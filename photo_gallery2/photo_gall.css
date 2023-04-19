@@ -1,0 +1,43 @@
+/* Import Open Sans and Lato fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Lato:wght@400&display=swap');
+
+/* Apply Open Sans font to the title */
+title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply Lato font to the H1 */
+h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Apply Merriweather font to the P */
+p {
+  font-family: 'Merriweather', serif;
+}
+
+/* Set the background color to light blue */
+body {
+  background-color: lightblue;
+}
+
+/* Style the gallery images */
+.image-gallery {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.image-gallery p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0;
+}
